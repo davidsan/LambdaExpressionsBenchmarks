@@ -1,0 +1,217 @@
+# JMH version: 1.21
+# VM version: JDK 13.0.1, OpenJDK 64-Bit Server VM, 13.0.1+9
+# VM invoker: /usr/local/jdk-13.0.1/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 25 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.test.benchmarks.LambdaExpressionsBenchmarks.browseMapWithExplicitBiConsumer
+
+# Run progress: 0.00% complete, ETA 00:20:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.049 ms/op
+# Warmup Iteration   2: 0.841 ms/op
+# Warmup Iteration   3: 0.502 ms/op
+# Warmup Iteration   4: 0.474 ms/op
+# Warmup Iteration   5: 0.469 ms/op
+Iteration   1: 0.455 ms/op
+Iteration   2: 0.477 ms/op
+Iteration   3: 0.468 ms/op
+Iteration   4: 0.470 ms/op
+Iteration   5: 0.464 ms/op
+Iteration   6: 0.471 ms/op
+Iteration   7: 0.480 ms/op
+Iteration   8: 0.471 ms/op
+Iteration   9: 0.472 ms/op
+Iteration  10: 0.469 ms/op
+Iteration  11: 0.464 ms/op
+Iteration  12: 0.460 ms/op
+Iteration  13: 0.469 ms/op
+Iteration  14: 0.463 ms/op
+Iteration  15: 0.467 ms/op
+Iteration  16: 0.470 ms/op
+Iteration  17: 0.470 ms/op
+Iteration  18: 0.468 ms/op
+Iteration  19: 0.467 ms/op
+Iteration  20: 0.458 ms/op
+Iteration  21: 0.471 ms/op
+Iteration  22: 0.465 ms/op
+Iteration  23: 0.463 ms/op
+Iteration  24: 0.463 ms/op
+Iteration  25: 0.466 ms/op
+
+
+Result "com.test.benchmarks.LambdaExpressionsBenchmarks.browseMapWithExplicitBiConsumer":
+  0.467 ±(99.9%) 0.004 ms/op [Average]
+  (min, avg, max) = (0.455, 0.467, 0.480), stdev = 0.005
+  CI (99.9%): [0.463, 0.471] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.1, OpenJDK 64-Bit Server VM, 13.0.1+9
+# VM invoker: /usr/local/jdk-13.0.1/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 25 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.test.benchmarks.LambdaExpressionsBenchmarks.browseMapWithExplicitIterator
+
+# Run progress: 25.00% complete, ETA 00:15:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.090 ms/op
+# Warmup Iteration   2: 0.910 ms/op
+# Warmup Iteration   3: 0.559 ms/op
+# Warmup Iteration   4: 0.567 ms/op
+# Warmup Iteration   5: 0.520 ms/op
+Iteration   1: 0.518 ms/op
+Iteration   2: 0.543 ms/op
+Iteration   3: 0.513 ms/op
+Iteration   4: 0.508 ms/op
+Iteration   5: 0.503 ms/op
+Iteration   6: 0.514 ms/op
+Iteration   7: 0.513 ms/op
+Iteration   8: 0.516 ms/op
+Iteration   9: 0.527 ms/op
+Iteration  10: 0.514 ms/op
+Iteration  11: 0.525 ms/op
+Iteration  12: 0.514 ms/op
+Iteration  13: 0.521 ms/op
+Iteration  14: 0.516 ms/op
+Iteration  15: 0.515 ms/op
+Iteration  16: 0.517 ms/op
+Iteration  17: 0.514 ms/op
+Iteration  18: 0.511 ms/op
+Iteration  19: 0.520 ms/op
+Iteration  20: 0.515 ms/op
+Iteration  21: 0.513 ms/op
+Iteration  22: 0.512 ms/op
+Iteration  23: 0.511 ms/op
+Iteration  24: 0.503 ms/op
+Iteration  25: 0.509 ms/op
+
+
+Result "com.test.benchmarks.LambdaExpressionsBenchmarks.browseMapWithExplicitIterator":
+  0.516 ±(99.9%) 0.006 ms/op [Average]
+  (min, avg, max) = (0.503, 0.516, 0.543), stdev = 0.008
+  CI (99.9%): [0.510, 0.521] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.1, OpenJDK 64-Bit Server VM, 13.0.1+9
+# VM invoker: /usr/local/jdk-13.0.1/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 25 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.test.benchmarks.LambdaExpressionsBenchmarks.browseMapWithoutExplicitBiConsumer
+
+# Run progress: 50.00% complete, ETA 00:10:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.051 ms/op
+# Warmup Iteration   2: 0.846 ms/op
+# Warmup Iteration   3: 0.508 ms/op
+# Warmup Iteration   4: 0.528 ms/op
+# Warmup Iteration   5: 0.474 ms/op
+Iteration   1: 0.475 ms/op
+Iteration   2: 0.474 ms/op
+Iteration   3: 0.478 ms/op
+Iteration   4: 0.475 ms/op
+Iteration   5: 0.470 ms/op
+Iteration   6: 0.475 ms/op
+Iteration   7: 0.477 ms/op
+Iteration   8: 0.478 ms/op
+Iteration   9: 0.485 ms/op
+Iteration  10: 0.479 ms/op
+Iteration  11: 0.455 ms/op
+Iteration  12: 0.457 ms/op
+Iteration  13: 0.460 ms/op
+Iteration  14: 0.459 ms/op
+Iteration  15: 0.461 ms/op
+Iteration  16: 0.460 ms/op
+Iteration  17: 0.453 ms/op
+Iteration  18: 0.449 ms/op
+Iteration  19: 0.461 ms/op
+Iteration  20: 0.454 ms/op
+Iteration  21: 0.454 ms/op
+Iteration  22: 0.458 ms/op
+Iteration  23: 0.453 ms/op
+Iteration  24: 0.449 ms/op
+Iteration  25: 0.450 ms/op
+
+
+Result "com.test.benchmarks.LambdaExpressionsBenchmarks.browseMapWithoutExplicitBiConsumer":
+  0.464 ±(99.9%) 0.008 ms/op [Average]
+  (min, avg, max) = (0.449, 0.464, 0.485), stdev = 0.011
+  CI (99.9%): [0.456, 0.472] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.1, OpenJDK 64-Bit Server VM, 13.0.1+9
+# VM invoker: /usr/local/jdk-13.0.1/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 25 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.test.benchmarks.LambdaExpressionsBenchmarks.browseMapWithoutExplicitIterator
+
+# Run progress: 75.00% complete, ETA 00:05:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.069 ms/op
+# Warmup Iteration   2: 0.884 ms/op
+# Warmup Iteration   3: 0.557 ms/op
+# Warmup Iteration   4: 0.518 ms/op
+# Warmup Iteration   5: 0.520 ms/op
+Iteration   1: 0.511 ms/op
+Iteration   2: 0.540 ms/op
+Iteration   3: 0.520 ms/op
+Iteration   4: 0.519 ms/op
+Iteration   5: 0.526 ms/op
+Iteration   6: 0.523 ms/op
+Iteration   7: 0.577 ms/op
+Iteration   8: 0.518 ms/op
+Iteration   9: 0.515 ms/op
+Iteration  10: 0.522 ms/op
+Iteration  11: 0.516 ms/op
+Iteration  12: 0.505 ms/op
+Iteration  13: 0.519 ms/op
+Iteration  14: 0.521 ms/op
+Iteration  15: 0.518 ms/op
+Iteration  16: 0.525 ms/op
+Iteration  17: 0.525 ms/op
+Iteration  18: 0.507 ms/op
+Iteration  19: 0.508 ms/op
+Iteration  20: 0.520 ms/op
+Iteration  21: 0.512 ms/op
+Iteration  22: 0.515 ms/op
+Iteration  23: 0.500 ms/op
+Iteration  24: 0.505 ms/op
+Iteration  25: 0.505 ms/op
+
+
+Result "com.test.benchmarks.LambdaExpressionsBenchmarks.browseMapWithoutExplicitIterator":
+  0.519 ±(99.9%) 0.011 ms/op [Average]
+  (min, avg, max) = (0.500, 0.519, 0.577), stdev = 0.015
+  CI (99.9%): [0.508, 0.530] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:20:02
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                                       Mode  Cnt  Score   Error  Units
+LambdaExpressionsBenchmarks.browseMapWithExplicitBiConsumer     avgt   25  0.467 ± 0.004  ms/op
+LambdaExpressionsBenchmarks.browseMapWithExplicitIterator       avgt   25  0.516 ± 0.006  ms/op
+LambdaExpressionsBenchmarks.browseMapWithoutExplicitBiConsumer  avgt   25  0.464 ± 0.008  ms/op
+LambdaExpressionsBenchmarks.browseMapWithoutExplicitIterator    avgt   25  0.519 ± 0.011  ms/op
